@@ -1,11 +1,18 @@
 import React from 'react'
 import '../App.css';
-import { useEffect } from 'react';
+import { useEffect ,useState} from 'react';
 
 function Func(props) {
+  const [className, setClassName] = useState("key");
   const play =()=>{
-    new Audio(props.sound).play()
-  } 
+   
+    setClassName('key2');
+    setTimeout(() => {
+      setClassName('key');
+    }, 200);
+    new Audio(props.sound).play() 
+
+  } ;
 
   useEffect(()=>{ 
     document.addEventListener("keydown",(e)=>{
@@ -18,7 +25,7 @@ function Func(props) {
  
   return (   
 <div className='Func'>
-  <div className="key" onClick={play}>{props.keys}<div className={"sound"}>{props.name}</div>  </div>
+  <div className={className} onClick={play}>{props.keys}<div className={"sound"}>{props.name}</div>  </div>
   
 </div>
   );

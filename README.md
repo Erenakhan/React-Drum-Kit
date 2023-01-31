@@ -1,3 +1,8 @@
+##ı tried to make js30 first  project drum kit with react
+###[live ]https://react-drum-7ye3n2dn9-erenakhan.vercel.app/).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

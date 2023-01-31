@@ -1,5 +1,5 @@
-##ı tried to make js30 first  project drum kit with react
-###[live ]https://react-drum-7ye3n2dn9-erenakhan.vercel.app/).
+## I tried to make js30 first  project drum kit with react
+### [live ]https://react-drum-7ye3n2dn9-erenakhan.vercel.app/).
 
 
 
